@@ -1,4 +1,4 @@
-function concatName(params) {
-  
+function concatName(firstName, lastName, delimiter) {
+  console.log(`${firstName}${delimiter}${lastName}`);
 }
-concatName();
+concatName("John", "Smith", "->");

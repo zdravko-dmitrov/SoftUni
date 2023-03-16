@@ -4,4 +4,4 @@ function censor(text, word) {
   }
   console.log(text);
 }
-censor(["A small sentence with some words", "small"]);
+censor(['A small sentence with some words', 'small']);

@@ -4,12 +4,12 @@ function theatrePromotions(day, age) {
     if ((age >= 0 && age <= 18) || (age > 64 && age <= 122)) {
       price = 12;
       
-    } else if (age > 18 || age <= 64) {
+    } else if (age > 18 && age <= 64) {
       price = 18;
       
     }
   } else if (day == "Weekend") {
-    if ((age >= 0 && age <= 0) || (age > 64 && age <= 122)) {
+    if ((age >= 0 && age <= 18) || (age > 64 && age <= 122)) {
       price = 15;
       
     } else if (age > 18 && age <= 64) {

@@ -1,7 +1,7 @@
 function rounding(x, y){
- x = x.toFixed(y)
+ 
 
-  console.log(`${x.parseFloat(y)}`);
+  console.log(`${x.toFixed(y)}`);
   
 
 }

@@ -2,3 +2,10 @@ p{
   color:red;
    font-weight: bold;
 }
+
+#secondPara{
+  color:aqua;
+}
+.thirdPara{
+  color:blue
+}
